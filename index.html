@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="styles.css">
 <head>
   <title>Lecture1</title>
   <h1>Brazilian Jiu Jitsu</h1>
+</head>
   <body>
     <p>
     contact sports created by the Gracie family
@@ -24,6 +26,37 @@
         <td>Grapplers Guide</td>
       </tr>
       </table>
+      <div>
+        Log In Credentials
+        <input type="text" name="name" placeholder="Name">
+        <input type="password" name="password" placeholder="Password">
+      </div>
+      <div>
+        Sex
+        <input type="radio" name="male" value="Male">Male
+        <input type="radio" name="female" value="Female">Female
+      </div>
+      <div>
+        Belt Color
+        <input type="text" list="belt" placeholder="Belt Color">
+        <datalist id="belt">
+          <option value="White">
+          <option value="Blue">
+          <option value="Purple">
+          <option value="Brown">
+          <option value="Black">
+        </datalist>
+      </div>
+      <button>Submit</button>
+      <ol>
+        <li>Sydney, Australia</li>
+          <ul>
+            <li>Gracie Academy</li>
+          </ul>
+        <li>Auckland, New Zealand</li>
+          <ul>
+            <li>Bucklands Beach BJJ & MMA</li>
+          </ul>
+      </ol>
   </body>
-</head>
 </html>
